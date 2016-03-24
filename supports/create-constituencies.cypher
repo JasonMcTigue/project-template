@@ -1,9 +1,37 @@
-// This query creates nodes representing all constituencies in Ireland.
-
-
-CREATE
-	(gw:Constituency {name: "Galway West"})
-	, (gw:Constituency {name: "Galway East"})
-	, ...
-	
-;
+CREATE 
+(constituency:Constituency {Name: "Cavan-Monaghan", Num_Seats: "4", Population: "120,483"}),
+(constituency1:Constituency {Name: "Clare", Num_Seats: "4", Population: "111,336"}),
+(constituency2:Constituency {Name: "Cork East", Num_Seats: "4", Population: "114,365"}),
+(constituency3:Constituency {Name: "Cork North-Central", Num_Seats: "4", Population: "117,170"}),
+(constituency4:Constituency {Name: "Cork North-West", Num_Seats: "3", Population: "86,593"}),
+(constituency5:Constituency {Name: "Cork South-Central", Num_Seats: "4", Population: "117,952"}),
+(constituency6:Constituency {Name: "Donegal", Num_Seats: "5", Population: "152,358"}),
+(constituency7:Constituency {Name: "Dublin Bay North", Num_Seats: "5", Population: "146,512"}),
+(constituency8:Constituency {Name: "Dublin Bay South", Num_Seats: "4", Population: "116,396"}),
+(constituency9:Constituency {Name: "Dublin Central", Num_Seats: "3", Population: "89,030"}),
+(constituency10:Constituency {Name: "Dublin Fingal", Num_Seats: "5", Population: "141,162"}),
+(constituency11:Constituency {Name: "Dublin Mid West", Num_Seats: "4", Population: "110,427"}),
+(constituency12:Constituency {Name: "Dublin North West", Num_Seats: "3", Population: "90,534"}),
+(constituency13:Constituency {Name: "Dublin Rathdown", Num_Seats: "4", Population: "114,660"}),
+(constituency14:Constituency {Name: "Dublin South West", Num_Seats: "5", Population: "144,908"}),
+(constituency15:Constituency {Name: "Dublin West", Num_Seats: "4", Population: "113,179"}),
+(constituency16:Constituency {Name: "Dun Laoghaire", Num_Seats: "4", Population: "118,791"}),
+(constituency17:Constituency {Name: "Galway East", Num_Seats: "3", Population: "89,564"}),
+(constituency18:Constituency {Name: "Galway West", Num_Seats: "5", Population: "150,874"}),
+(constituency19:Constituency {Name: "Kerry", Num_Seats: "5", Population: "145,502"}),
+(constituency20:Constituency {Name: "Kildare North", Num_Seats: "4", Population: "115,350"}),
+(constituency21:Constituency {Name: "Laois", Num_Seats: "3", Population: "87,745"}),
+(constituency22:Constituency {Name: "Limerick City", Num_Seats: "4", Population: "113,835"}),
+(constituency23:Constituency {Name: "Limerick County", Num_Seats: "3", Population: "83,833"}),
+(constituency24:Constituency {Name: "Longford-Westmeath", Num_Seats: "4", Population: "116,802"}),
+(constituency25:Constituency {Name: "Louth", Num_Seats: "5", Population: "143,272"}),
+(constituency26:Constituency {Name: "Mayo", Num_Seats: "4", Population: "120,332"}),
+(constituency27:Constituency {Name: "Meath East", Num_Seats: "3", Population: "85,550"}),
+(constituency28:Constituency {Name: "Meath West", Num_Seats: "5", Population: "150,874"}),
+(constituency29:Constituency {Name: "Offaly", Num_Seats: "3", Population: "87,640"}),
+(constituency30:Constituency {Name: "Roscommon-Galway", Num_Seats: "3", Population: "84,586"}),
+(constituency31:Constituency {Name: "Sligo-Leitrim", Num_Seats: "4", Population: "119,153"}),
+(constituency32:Constituency {Name: "Tipperary", Num_Seats: "5", Population: "147,801"}),
+(constituency33:Constituency {Name: "Waterford", Num_Seats: "4", Population: "113,795"}),
+(constituency34:Constituency {Name: "Wexford", Num_Seats: "5", Population: "145,320"}),
+(constituency35:Constituency {Name: "Wicklow", Num_Seats: "5", Population: "141,012"})
