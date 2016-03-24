@@ -1,5 +1,5 @@
 # Irish Constituencies Neo4j Database
-###### Student name, G00123456
+###### Jason McTigue, G00312233
 
 ## Introduction
 Give a summary here of what your project is about.
@@ -39,4 +39,5 @@ RETURN
 ```
 
 ## References
-1. [Neo4J website](http://neo4j.com/), the website of the Neo4j database.
+1. [Irish political maps](http://irishpoliticalmaps.blogspot.ie/2012/06/constituency-commission-boundary.html), the website of Irish political maps.
+2. [Wikipedia page](https://en.wikipedia.org/wiki/Parliamentary_constituencies_in_the_Republic_of_Ireland), Wiki page of all the Irish constituencies, seats in each and population in each.
