@@ -16,7 +16,19 @@ CREATE
 (:Candidate {Name: "Noel Walsh", Age: "50", Constituency: "Carlow-Kilkenny", Party: "Independent"})
 
 http://www.thejournal.ie/election-2016/constituency/4/
-.
+
+
+MATCH
+(c:Candidate {Name: "John Paul Phelan"}), (p:Party {Name: "Fine Gael"})
+CREATE
+(c)-[r:RUNNING_FOR]->(p)
+RETURN r;
+======================================================================================
+MATCH
+(c:Candidate {Name: "John Paul Phelan"}), (con:Constituency {Name: "Carlow-Kilkenny})
+CREATE
+(c)-[r:RUNS_IN]->(con)
+RETURN r;
 
 
 
