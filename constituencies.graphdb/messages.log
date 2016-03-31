@@ -2358,3 +2358,29 @@ RETURN r;
 2016-03-30 23:35:22.528+0000 WARN  [o.n.k.i.c.MonitorGc] GC Monitor: Application threads blocked for 10000ms.
 2016-03-30 23:35:32.629+0000 WARN  [o.n.k.i.c.MonitorGc] GC Monitor: Application threads blocked for 10000ms.
 2016-03-30 23:35:37.958+0000 WARN  [o.n.k.i.c.MonitorGc] GC Monitor: Application threads blocked for 5226ms.
+2016-03-30 23:37:00.009+0000 WARN  [o.n.k.i.c.MonitorGc] GC Monitor: Application threads blocked for 4175ms.
+2016-03-30 23:37:37.995+0000 INFO  [o.n.k.i.t.l.c.CheckPointerImpl] Check Pointing triggered by scheduler for time threshold [47]:  Starting check pointing...
+2016-03-30 23:37:37.995+0000 INFO  [o.n.k.i.t.l.c.CheckPointerImpl] Check Pointing triggered by scheduler for time threshold [47]:  Starting store flush...
+2016-03-30 23:37:37.998+0000 INFO  [o.n.k.i.s.c.CountsTracker] About to rotate counts store at transaction 47 to [/Users/JasonMcTigue/Documents/GraphTheory/project-template-master/constituencies.graphdb/neostore.counts.db.a], from [/Users/JasonMcTigue/Documents/GraphTheory/project-template-master/constituencies.graphdb/neostore.counts.db.b].
+2016-03-30 23:37:37.999+0000 INFO  [o.n.k.i.s.c.CountsTracker] Successfully rotated counts store at transaction 47 to [/Users/JasonMcTigue/Documents/GraphTheory/project-template-master/constituencies.graphdb/neostore.counts.db.a], from [/Users/JasonMcTigue/Documents/GraphTheory/project-template-master/constituencies.graphdb/neostore.counts.db.b].
+2016-03-30 23:37:38.013+0000 INFO  [o.n.k.i.t.l.c.CheckPointerImpl] Check Pointing triggered by scheduler for time threshold [47]:  Store flush completed
+2016-03-30 23:37:38.013+0000 INFO  [o.n.k.i.t.l.c.CheckPointerImpl] Check Pointing triggered by scheduler for time threshold [47]:  Starting appending check point entry into the tx log...
+2016-03-30 23:37:38.014+0000 INFO  [o.n.k.i.t.l.c.CheckPointerImpl] Check Pointing triggered by scheduler for time threshold [47]:  Appending check point entry into the tx log completed
+2016-03-30 23:37:38.014+0000 INFO  [o.n.k.i.t.l.c.CheckPointerImpl] Check Pointing triggered by scheduler for time threshold [47]:  Check pointing completed
+2016-03-30 23:37:38.014+0000 INFO  [o.n.k.i.t.l.p.LogPruningImpl] Log Rotation [0]:  Starting log pruning.
+2016-03-30 23:37:38.015+0000 INFO  [o.n.k.i.t.l.p.LogPruningImpl] Log Rotation [0]:  Log pruning complete.
+2016-03-30 23:38:00.009+0000 WARN  [o.n.k.i.c.MonitorGc] GC Monitor: Application threads blocked for 5022ms.
+2016-03-30 23:40:05.462+0000 WARN  [o.n.k.i.c.MonitorGc] GC Monitor: Application threads blocked for 546ms.
+2016-03-30 23:40:08.627+0000 INFO  [o.n.k.i.f.GraphDatabaseFacade] Shutdown started
+2016-03-30 23:40:08.627+0000 INFO  [o.n.k.i.f.CommunityFacadeFactory] Database is now unavailable
+2016-03-30 23:40:08.628+0000 INFO  [o.n.k.i.t.l.c.CheckPointerImpl] Check Pointing triggered by database shutdown [47]:  Starting check pointing...
+2016-03-30 23:40:08.628+0000 INFO  [o.n.k.i.t.l.c.CheckPointerImpl] Check Pointing triggered by database shutdown [47]:  Starting store flush...
+2016-03-30 23:40:08.629+0000 INFO  [o.n.k.i.t.l.c.CheckPointerImpl] Check Pointing triggered by database shutdown [47]:  Store flush completed
+2016-03-30 23:40:08.629+0000 INFO  [o.n.k.i.t.l.c.CheckPointerImpl] Check Pointing triggered by database shutdown [47]:  Starting appending check point entry into the tx log...
+2016-03-30 23:40:08.629+0000 INFO  [o.n.k.i.t.l.c.CheckPointerImpl] Check Pointing triggered by database shutdown [47]:  Appending check point entry into the tx log completed
+2016-03-30 23:40:08.629+0000 INFO  [o.n.k.i.t.l.c.CheckPointerImpl] Check Pointing triggered by database shutdown [47]:  Check pointing completed
+2016-03-30 23:40:08.629+0000 INFO  [o.n.k.i.t.l.p.LogPruningImpl] Log Rotation [0]:  Starting log pruning.
+2016-03-30 23:40:08.629+0000 INFO  [o.n.k.i.t.l.p.LogPruningImpl] Log Rotation [0]:  Log pruning complete.
+2016-03-30 23:40:08.740+0000 INFO  [o.n.k.NeoStoreDataSource] NeoStores closed
+2016-03-30 23:40:08.749+0000 INFO  [o.n.k.i.DiagnosticsManager] --- STOPPING diagnostics START ---
+2016-03-30 23:40:08.749+0000 INFO  [o.n.k.i.DiagnosticsManager] --- STOPPING diagnostics END ---
