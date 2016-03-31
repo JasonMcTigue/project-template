@@ -14,9 +14,28 @@ CREATE
 (:Candidate {Name: "Conor Mac Liam", Age: "55", Constituency: "Carlow-Kilkenny", Party: "Anti-Austerity Alliance People Before Profit"}),
 (:Candidate {Name: "Paddy J Manning", Age: "52", Constituency: "Carlow-Kilkenny", Party: "Independent"}),
 (:Candidate {Name: "Noel Walsh", Age: "50", Constituency: "Carlow-Kilkenny", Party: "Independent"})
+==================================================================================
+CAVAN-MONAGHAN
+CREATE
+(:Candidate {Name: "Caoimhghín O Caoláin", Age: "62", Constituency: "Cavan-Monaghan", Party: "Sinn Fein"}),
+(:Candidate {Name: "Heather Humphreys", Age: "55", Constituency: "Cavan-Monaghan", Party: "Fine Gael"}),
+(:Candidate {Name: "Brendan Smith", Age: "59", Constituency: "Cavan-Monaghan", Party: "Fianna Fail"}),
+(:Candidate {Name: "Niamh Smyth", Age: "30", Constituency: "Cavan-Monaghan", Party: "Finna Fail"}),
+(:Candidate {Name: "Joe O'Reilly", Age: "60", Constituency: "Cavan-Monaghan", Party: "Fine Gael"}),
+(:Candidate {Name: "Kathryn Reilly", Age: "27", Constituency: "Cavan-Monaghan", Party: "Sinn Fein"}),
+(:Candidate {Name: "Mike Durkan", Age: "37", Constituency: "Cavan-Monaghan", Party: "Fianna Fail"}),
+(:Candidate {Name: "Mary Smyth", Age: "53", Constituency: "Cavan-Monaghan", Party: "Independent"}),
+(:Candidate {Name: "Sean Conlan", Age: "40", Constituency: "Cavan-Monaghan", Party: "Independent"}),
+(:Candidate {Name: "Micheál Callaghan", Age: "24", Constituency: "Cavan-Monaghan", Party: "Green Party"}),
+(:Candidate {Name: "John Wilson", Age: "52", Constituency: "Cavan-Monaghan", Party: "Independent"}),
+(:Candidate {Name: "Aoife O'Connell", Age: "28", Constituency: "Cavan-Monaghan", Party: "Direct Democracy Ireland"}),
+(:Candidate {Name: "Emmet Smith", Age: "25", Constituency: "Cavan-Monaghan", Party: "Independent"}),
+(:Candidate {Name: "Jimmy Mee", Age: "55", Constituency: "Cavan-Monaghan", Party: "Independent"})
+
 
 http://www.thejournal.ie/election-2016/constituency/4/
 
+=====================================================================================
 
 MATCH
 (c:Candidate {Name: "John Paul Phelan"}), (p:Party {Name: "Fine Gael"})
@@ -25,7 +44,7 @@ CREATE
 RETURN r;
 ======================================================================================
 MATCH
-(c:Candidate {Name: "John Paul Phelan"}), (con:Constituency {Name: "Carlow-Kilkenny})
+(c:Candidate {Name: "John Paul Phelan"}), (con:Constituency {Name: "Carlow-Kilkenny”})
 CREATE
 (c)-[r:RUNS_IN]->(con)
 RETURN r;
