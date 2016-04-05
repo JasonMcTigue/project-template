@@ -6676,3 +6676,31 @@ RETURN r;
 2016-04-05 18:40:11.841+0000 INFO  [o.n.k.i.t.l.c.CheckPointerImpl] Check Pointing triggered by scheduler for time threshold [159]:  Check pointing completed
 2016-04-05 18:40:11.841+0000 INFO  [o.n.k.i.t.l.p.LogPruningImpl] Log Rotation [0]:  Starting log pruning.
 2016-04-05 18:40:11.841+0000 INFO  [o.n.k.i.t.l.p.LogPruningImpl] Log Rotation [0]:  Log pruning complete.
+2016-04-05 18:42:49.565+0000 WARN  [o.n.k.i.c.MonitorGc] GC Monitor: Application threads blocked for 4337ms.
+2016-04-05 18:42:53.891+0000 WARN  [o.n.k.i.c.MonitorGc] GC Monitor: Application threads blocked for 4225ms.
+2016-04-05 18:42:56.350+0000 WARN  [o.n.k.i.c.MonitorGc] GC Monitor: Application threads blocked for 2358ms.
+2016-04-05 18:42:57.441+0000 WARN  [o.n.k.i.c.MonitorGc] GC Monitor: Application threads blocked for 990ms.
+2016-04-05 18:43:01.800+0000 WARN  [o.n.k.i.c.MonitorGc] GC Monitor: Application threads blocked for 4259ms.
+2016-04-05 18:43:04.032+0000 WARN  [o.n.k.i.c.MonitorGc] GC Monitor: Application threads blocked for 2131ms.
+2016-04-05 18:43:47.488+0000 WARN  [o.n.k.i.c.MonitorGc] GC Monitor: Application threads blocked for 2507ms.
+2016-04-05 18:43:56.993+0000 WARN  [o.n.k.i.c.MonitorGc] GC Monitor: Application threads blocked for 9404ms.
+2016-04-05 18:44:02.239+0000 WARN  [o.n.k.i.c.MonitorGc] GC Monitor: Application threads blocked for 5145ms.
+2016-04-05 18:44:03.560+0000 WARN  [o.n.k.i.c.MonitorGc] GC Monitor: Application threads blocked for 1111ms.
+2016-04-05 18:44:04.820+0000 WARN  [o.n.k.i.c.MonitorGc] GC Monitor: Application threads blocked for 1159ms.
+2016-04-05 18:44:07.764+0000 WARN  [o.n.k.i.c.MonitorGc] GC Monitor: Application threads blocked for 2843ms.
+2016-04-05 18:44:11.030+0000 WARN  [o.n.k.i.c.MonitorGc] GC Monitor: Application threads blocked for 3065ms.
+2016-04-05 18:44:11.790+0000 WARN  [o.n.k.i.c.MonitorGc] GC Monitor: Application threads blocked for 659ms.
+2016-04-05 18:44:13.160+0000 WARN  [o.n.k.i.c.MonitorGc] GC Monitor: Application threads blocked for 1269ms.
+2016-04-05 18:44:22.832+0000 WARN  [o.n.k.i.c.MonitorGc] GC Monitor: Application threads blocked for 9571ms.
+2016-04-05 18:44:23.793+0000 WARN  [o.n.k.i.c.MonitorGc] GC Monitor: Application threads blocked for 860ms.
+2016-04-05 18:44:25.782+0000 WARN  [o.n.k.i.c.MonitorGc] GC Monitor: Application threads blocked for 1888ms.
+2016-04-05 18:45:12.846+0000 INFO  [o.n.k.i.t.l.c.CheckPointerImpl] Check Pointing triggered by scheduler for time threshold [163]:  Starting check pointing...
+2016-04-05 18:45:12.847+0000 INFO  [o.n.k.i.t.l.c.CheckPointerImpl] Check Pointing triggered by scheduler for time threshold [163]:  Starting store flush...
+2016-04-05 18:45:12.849+0000 INFO  [o.n.k.i.s.c.CountsTracker] About to rotate counts store at transaction 163 to [/Users/JasonMcTigue/Documents/GraphTheory/project-template-master/constituencies.graphdb/neostore.counts.db.a], from [/Users/JasonMcTigue/Documents/GraphTheory/project-template-master/constituencies.graphdb/neostore.counts.db.b].
+2016-04-05 18:45:12.851+0000 INFO  [o.n.k.i.s.c.CountsTracker] Successfully rotated counts store at transaction 163 to [/Users/JasonMcTigue/Documents/GraphTheory/project-template-master/constituencies.graphdb/neostore.counts.db.a], from [/Users/JasonMcTigue/Documents/GraphTheory/project-template-master/constituencies.graphdb/neostore.counts.db.b].
+2016-04-05 18:45:12.853+0000 INFO  [o.n.k.i.t.l.c.CheckPointerImpl] Check Pointing triggered by scheduler for time threshold [163]:  Store flush completed
+2016-04-05 18:45:12.854+0000 INFO  [o.n.k.i.t.l.c.CheckPointerImpl] Check Pointing triggered by scheduler for time threshold [163]:  Starting appending check point entry into the tx log...
+2016-04-05 18:45:12.854+0000 INFO  [o.n.k.i.t.l.c.CheckPointerImpl] Check Pointing triggered by scheduler for time threshold [163]:  Appending check point entry into the tx log completed
+2016-04-05 18:45:12.855+0000 INFO  [o.n.k.i.t.l.c.CheckPointerImpl] Check Pointing triggered by scheduler for time threshold [163]:  Check pointing completed
+2016-04-05 18:45:12.855+0000 INFO  [o.n.k.i.t.l.p.LogPruningImpl] Log Rotation [0]:  Starting log pruning.
+2016-04-05 18:45:12.855+0000 INFO  [o.n.k.i.t.l.p.LogPruningImpl] Log Rotation [0]:  Log pruning complete.

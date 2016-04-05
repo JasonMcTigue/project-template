@@ -430,12 +430,236 @@ CREATE
 (:Candidate {Name: "John Whelan", Age: "54", Constituency: "Laois", Party: "Labour Party"}),
 (:Candidate {Name: "Sinead Moore", Age: "40", Constituency: "Laois", Party: "Green Party"})
 ========================================================
+Limerick City
+
+CREATE
+(:Candidate {Name: "Willie O'Dea", Age: "62", Constituency: "Limerick City", Party: "Fianna Fail"}),
+(:Candidate {Name: "Maurice Quinlivan", Age: "48", Constituency: "Limerick City", Party: "Sinn Fein"}),
+(:Candidate {Name: "Michael Noonan", Age: "72", Constituency: "Limerick City", Party: "Fine Gael"}),
+(:Candidate {Name: "Jan O'Sullivan", Age: "64", Constituency: "Limerick City", Party: "Labour"}),
+(:Candidate {Name: "Kieran O'Donnell", Age: "52", Constituency: "Limerick City", Party: "Fine Gael"}),
+(:Candidate {Name: "Cian Prendiville", Age: "26", Constituency: "Limerick City", Party: "Anti-Austerity Alliance People Before Profit"}),
+(:Candidate {Name: "Sarah Jane Hennelly", Age: "27", Constituency: "Limerick City", Party: "Social Democrats"}),
+(:Candidate {Name: "James Gaffney", Age: "32", Constituency: "Limerick City", Party: "Green Party"}),
+(:Candidate {Name: "Nora Bennis", Age: "71", Constituency: "Limerick City", Party: " Catholic Democrats"})
+========================================================
+Limerick County
+
+CREATE
+(:Candidate {Name: "Niall Collins", Age: "42", Constituency: "Kildare South", Party: "Fianna Fail}),
+(:Candidate {Name: "Tom Neville", Age: "44", Constituency: "Kildare South", Party: "Fine Gael"}),
+(:Candidate {Name: "Patrick O'Donovan", Age: "38", Constituency: "Kildare South", Party: "Fine Gael"}),
+(:Candidate {Name: "Emmett O'Brien", Age: "36", Constituency: "Kildare South", Party: "Independent"}),
+(:Candidate {Name: "James Heffernan", Age: "36", Constituency: "Kildare South", Party: "Social Democrats"}),
+(:Candidate {Name: "Seamus Browne", Age: "45", Constituency: "Kildare South", Party: "Sinn Fein"}),
+(:Candidate {Name: "Richard O'Donoghue", Age: "44", Constituency: "Kildare South", Party: "Independent"}),
+(:Candidate {Name: "Alexander Cosgrave", Age: "21", Constituency: "Kildare South", Party: "Green Party"}),
+(:Candidate {Name: "Mark Keogh", Age: "42", Constituency: "Kildare South", Party: " Direct Democracy Ireland"}),
+(:Candidate {Name: "John O'Gorman", Age: "64", Constituency: "Kildare South", Party: "Independent"})
+
+========================================================
+CRETAE
+(:Candidate {Name: "Robert Troy", Age: "33", Constituency: "Longford Westmeath", Party: "Fianna Fail"}),
+(:Candidate {Name: "Peter Burke", Age: "33", Constituency: "Longford Westmeath", Party: "Fine Gael"}),
+(:Candidate {Name: "Kevin'Boxer' Moran", Age: "45", Constituency: "Longford Westmeath", Party: "Independent"}),
+(:Candidate {Name: "Willie Penrose", Age: "59", Constituency: "Longford Westmeath", Party: "Labour Party"}),
+(:Candidate {Name: "Paul Hogan", Age: "32", Constituency: "Longford Westmeath", Party: "Sinn Fein"}),
+(:Candidate {Name: "James Bannon", Age: "57", Constituency: "Longford Westmeath", Party: "Fine Gael"}),
+(:Candidate {Name: "Connie Gerety-Quinn", Age: "48", Constituency: "Longford Westmeath", Party: "Fianna Fail"}),
+(:Candidate {Name: "James Morgan", Age: "44", Constituency: "Longford Westmeath", Party: "Independent"}),
+(:Candidate {Name: "Gabrielle McFadden", Age: "48", Constituency: "Longford Westmeath", Party: "Fine Gael"}),
+(:Candidate {Name: "Mae Sexton", Age: "60", Constituency: "Longford Westmeath", Party: "Independent"})
+========================================================
+Kildare south 
+
+CREATE
+(:Candidate {Name: "Niall Collins", Age: "42", Constituency: "Kildare South", Party: "Fianna Fail"}),
+(:Candidate {Name: "Tom Neville", Age: "44", Constituency: "Kildare South", Party: "Fine Gael"}),
+(:Candidate {Name: "Patrick O'Donovan", Age: "38", Constituency: "Kildare South", Party: "Fine Gael"}),
+(:Candidate {Name: "Emmett O'Brien", Age: "36", Constituency: "Kildare South", Party: "Independent"}),
+(:Candidate {Name: "James Heffernan", Age: "36", Constituency: "Kildare South", Party: "Social Democrats"}),
+(:Candidate {Name: "Seamus Browne", Age: "45", Constituency: "Kildare South", Party: "Sinn Fein"}),
+(:Candidate {Name: "Richard O'Donoghue", Age: "44", Constituency: "Kildare South", Party: "Independent"}),
+(:Candidate {Name: "Alexander Cosgrave", Age: "21", Constituency: "Kildare South", Party: "Green Party"}),
+(:Candidate {Name: "Mark Keogh", Age: "42", Constituency: "Kildare South", Party: " Direct Democracy Ireland"}),
+(:Candidate {Name: "John O'Gorman", Age: "64", Constituency: "Kildare South", Party: "Independent"})
+========================================================
+Longford westmeath
+
+CRETAE
+(:Candidate {Name: "Robert Troy", Age: "33", Constituency: "Longford Westmeath", Party: "Fianna Fail"}),
+(:Candidate {Name: "Peter Burke", Age: "33", Constituency: "Longford Westmeath", Party: "Fine Gael"}),
+(:Candidate {Name: "Kevin'Boxer' Moran", Age: "45", Constituency: "Longford Westmeath", Party: "Independent"}),
+(:Candidate {Name: "Willie Penrose", Age: "59", Constituency: "Longford Westmeath", Party: "Labour Party"}),
+(:Candidate {Name: "Paul Hogan", Age: "32", Constituency: "Longford Westmeath", Party: "Sinn Fein"}),
+(:Candidate {Name: "James Bannon", Age: "57", Constituency: "Longford Westmeath", Party: "Fine Gael"}),
+(:Candidate {Name: "Connie Gerety-Quinn", Age: "48", Constituency: "Longford Westmeath", Party: "Fianna Fail"}),
+(:Candidate {Name: "James Morgan", Age: "44", Constituency: "Longford Westmeath", Party: "Independent"}),
+(:Candidate {Name: "Gabrielle McFadden", Age: "48", Constituency: "Longford Westmeath", Party: "Fine Gael"}),
+(:Candidate {Name: "Mae Sexton", Age: "60", Constituency: "Longford Westmeath", Party: "Independent"})
+========================================================
+Louth
+
+CREATE
+(:Candidate {Name: "Imelda Munster", Age: "57", Constituency: "Louth", Party: "Sinn Fein"}),
+(:Candidate {Name: "Declan Breathnach", Age: "57", Constituency: "Louth", Party: "Fianna Fail"}),
+(:Candidate {Name: "Gerry Adams", Age: "67", Constituency: "Louth", Party: "Sinn Fein"}),
+(:Candidate {Name: "Fergus O'Dowd", Age: "67", Constituency: "Louth", Party: "Fine Gael"}),
+(:Candidate {Name: "Peter Fitzpatrick", Age: "53", Constituency: "Louth", Party: "Fine Gael"}),
+(:Candidate {Name: "Ged Nash", Age: "39", Constituency: "Louth", Party: "Labour Party"}),
+(:Candidate {Name: "Garrett Weldon", Age: "55", Constituency: "Louth", Party: "Anti-Austerity Alliance People Before Profit"}),
+(:Candidate {Name: "Kevin Callan", Age: "33", Constituency: "Louth", Party: "Independent"}),
+(:Candidate {Name: "Mark Dearey", Age: "52", Constituency: "Louth", Party: "Green Party"})
+
+========================================================
+Mayo
+
+CREATE
+(:Candidate {Name: "Enda Kenny", Age: "64", Constituency: "Mayo", Party: "Fine Gael"}),
+(:Candidate {Name: "Michael Ring", Age: "61", Constituency: "Mayo", Party: "Fine Gael"}),
+(:Candidate {Name: "Dara Calleary", Age: "42", Constituency: "Mayo", Party: "Fianna Fail"}),
+(:Candidate {Name: "Lisa Chambers", Age: "34", Constituency: "Mayo", Party: "Fianna Fail"}),
+(:Candidate {Name: "Michelle Mulherin", Age: "43", Constituency: "Mayo", Party: "Fine Gael"}),
+(:Candidate {Name: "Rose Conway-Walsh", Age: "33", Constituency: "Mayo", Party: "Sinn Fein"}),
+(:Candidate {Name: "Jerry Cowley", Age: "63", Constituency: "Mayo", Party: "Independent"}),
+(:Candidate {Name: "Michael Farringtony", Age: "61", Constituency: "Mayo", Party: "Renua Ireland"}),
+(:Candidate {Name: "Margaret Sheehan", Age: "50", Constituency: "Mayo", Party: "Green Party"}),
+(:Candidate {Name: "Tom Moran", Age: "74", Constituency: "Mayo", Party: "Anti-Austerity Alliance People Before Profit"})
+========================================================
+Meath east
+
+CREATE
+(:Candidate {Name: "Thomas Byrne", Age: "38", Constituency: "Meath East", Party: "Fianna Fail"}),
+(:Candidate {Name: "Helen McEntee", Age: "29", Constituency: "Meath East", Party: "Fine Gael"}),
+(:Candidate {Name: "Regina Doherty", Age: "45", Constituency: "Meath East", Party: "Fine Gael"}),
+(:Candidate {Name: "Darren O'Rourke", Age: "35", Constituency: "Meath East", Party: "Sinn Fein"}),
+(:Candidate {Name: "Joe Bonner", Age: "64", Constituency: "Meath East", Party: "Independent"}),
+(:Candidate {Name: "Dominic Hannigan", Age: "50", Constituency: "Meath East", Party: "Labour Party"}),
+(:Candidate {Name: "Aisling O'Neill", Age: "42", Constituency: "Meath East", Party: "Social Democrats"}),
+(:Candidate {Name: "Sharon Keogan", Age: "54", Constituency: "Meath East", Party: "independent"}),
+(:Candidate {Name: "Ben Gilroy", Age: "52", Constituency: "Meath East", Party: "Direct Democracy Ireland"}),
+(:Candidate {Name: "Seán O Buachalla", Age: "34", Constituency: "Meath East", Party: "Green Party"})
+========================================================
+Meath west
+
+CREATE
+(:Candidate {Name: "Shane Cassells", Age: "47", Constituency: "Meath West", Party: "Fianna Fail"}),
+(:Candidate {Name: "Damien English", Age: "37", Constituency: "Meath West", Party: "Fine Gael"}),
+(:Candidate {Name: "Peadar Tóibín", Age: "41", Constituency: "Meath West", Party: "Sinn Fein"}),
+(:Candidate {Name: "Ray Butler", Age: "49", Constituency: "Meath West", Party: "Fine Gael"}),
+(:Candidate {Name: "Trevor Golden", Age: "37", Constituency: "Meath West", Party: "Independent"}),
+(:Candidate {Name: "Seamus McMenamin", Age: "36", Constituency: "Meath West", Party: "Green Party"}),
+(:Candidate {Name: "Alan Lawes", Age: "57", Constituency: "Meath West", Party: "Direct Democracy Ireland"}),
+(:Candidate {Name: "Tracy McElhinney", Age: "43", Constituency: "Meath West", Party: "Labour Party"}),
+(:Candidate {Name: "John Malone", Age: "72", Constituency: "Meath West", Party: "Independent"})
+
+========================================================
+Offaly
+
+CREATE
+(:Candidate {Name: "Barry Cowen", Age: "47", Constituency: "Offaly", Party: "Fianna Fail"}),
+(:Candidate {Name: "Marcella Corcoran-Kennedy", Age: "53", Constituency: "Offaly", Party: "Fine Gael"}),
+(:Candidate {Name: "Carol Nolan", Age: "36", Constituency: "Offaly", Party: "Sinn Fein"}),
+(:Candidate {Name: "Eddie Fitzpatrick", Age: "45", Constituency: "Offaly", Party: "Fianna Fail"}),
+(:Candidate {Name: "John Leahy", Age: "37", Constituency: "Offaly", Party: "Renua Ireland"}),
+(:Candidate {Name: "Joe Hannigan", Age: "58", Constituency: "Offaly", Party: "Independent"}),
+(:Candidate {Name: "John Foley", Age: "57", Constituency: "Offaly", Party: "Independent"}),
+(:Candidate {Name: "Ken Smollen", Age: "55", Constituency: "Offaly", Party: "Irish Democratic Party"}),
+(:Candidate {Name: "Teresa Ryan-Feehan", Age: "34", Constituency: "Offaly", Party: "Independent"}),
+(:Candidate {Name: "Kate Bopp", Age: "50", Constituency: "Offaly", Party: "Independent"}),
+(:Candidate {Name: "Christopher Fettes", Age: "78", Constituency: "Offaly", Party: "Green Party"})
+
+
+========================================================
+roscommon galway
+
+CREATE
+(:Candidate {Name: "Denis Naughten", Age: "42", Constituency: "Roscommon Galway", Party: "Independent"}),
+(:Candidate {Name: "Michael Fitzmaurice", Age: "47", Constituency: "Roscommon Galway", Party: "Independent"}),
+(:Candidate {Name: "Eugene Murphy", Age: "55", Constituency: "Roscommon Galway", Party: "Fianna Fail"}),
+(:Candidate {Name: "Maura Hopkins", Age: "31", Constituency: "Roscommon Galway", Party: "Fine Gael"}),
+(:Candidate {Name: "Claire Kerrane", Age: "23", Constituency: "Roscommon Galway", Party: "Sinn Fein"}),
+(:Candidate {Name: "Shane Curran", Age: "44", Constituency: "Roscommon Galway", Party: "Fianna Fail"}),
+(:Candidate {Name: "John Kelly", Age: "55", Constituency: "Roscommon Galway", Party: "Labour Party"}),
+(:Candidate {Name: "Eddie Conroy", Age: "39", Constituency: "Roscommon Galway", Party: "Anti-Austerity Alliance People Before Profit"})
+========================================================
+sligo leitrim
+
+ CREATE
+(:Candidate {Name: "Martin Kenny", Age: "46", Constituency: "Sligo-Leitrim", Party: "Sinn Fein"}),
+(:Candidate {Name: "Marc MacSharry", Age: "42", Constituency: "Sligo-Leitrim", Party: "Fianna Fail"}),
+(:Candidate {Name: "Tony McLoughlin", Age: "66", Constituency: "Sligo-Leitrim", Party: "Fine Gael"}),
+(:Candidate {Name: "Eamon Scanlon", Age: "61", Constituency: "Sligo-Leitrim", Party: "Fianna Fail"}),
+(:Candidate {Name: "Gerry Reynolds", Age: "54", Constituency: "Sligo-Leitrim", Party: "Fine Geal"}),
+(:Candidate {Name: "Chris MacManus", Age: "42", Constituency: "Sligo-Leitrim", Party: "Sinn Fein"}),
+(:Candidate {Name: "Paddy O'Rourke", Age: "65", Constituency: "Sligo-Leitrim", Party: "Fianna Fail"}),
+(:Candidate {Name: "Declan Bree", Age: "64", Constituency: "Sligo-Leitrim", Party: "Independent"}),
+(:Candidate {Name: "John Perry", Age: "59", Constituency: "Sligo-Leitrim", Party: "Fine Gael"}),
+(:Candidate {Name: "Marie Casserly", Age: "37", Constituency: "Sligo-Leitrim", Party: "Independent"})
+
+========================================================
+tipperary
+
+CREATE
+(:Candidate {Name: "Jackie Cahill", Age: "53", Constituency: "Tipperary", Party: "Fianna Fail"}),
+(:Candidate {Name: "Mattie McGrath", Age: "57", Constituency: "Tipperary", Party: "Independent"}),
+(:Candidate {Name: "Michael Lowry", Age: "62", Constituency: "Tipperary", Party: "Independent"}),
+(:Candidate {Name: "Séamus Healy", Age: "65", Constituency: "Tipperary", Party: "Workers and Unemployed Action"}),
+(:Candidate {Name: "Alan Kelly", Age: "40", Constituency: "Tipperary", Party: "Labour Party"}),
+(:Candidate {Name: "Tom Hayes", Age: "63", Constituency: "Tipperary", Party: "Fine Gael"}),
+(:Candidate {Name: "Michael Smith", Age: "39", Constituency: "Tipperary", Party: "Fianna Fail"}),
+(:Candidate {Name: "Seamus Morris", Age: "51", Constituency: "Tipperary", Party: "Sinn Fein"}),
+(:Candidate {Name: "Noel Coonan", Age: "65", Constituency: "Tipperary", Party: "Finn Gael"}),
+(:Candidate {Name: "Siobhán Ambrose", Age: "45", Constituency: "Tipperary", Party: "Fianna Fail"})
+
+========================================================
+wicklow
+
+CREATE
+(:Candidate {Name: "Stephen Donnelly", Age: "40", Constituency: "Wicklow", Party: "Social Democrats"}),
+(:Candidate {Name: "John Brady", Age: "42", Constituency: "Wicklow", Party: "Sinn Fein"}),
+(:Candidate {Name: "Simon Harris", Age: "29", Constituency: "Wicklow", Party: "Fine Gael"}),
+(:Candidate {Name: "Andrew Doyle", Age: "55", Constituency: "Wicklow", Party: "Fine Gael"}),
+(:Candidate {Name: "Pat Casey", Age: "57", Constituency: "Wicklow", Party: "Fianna Fail"}),
+(:Candidate {Name: "Billy Timmins", Age: "56", Constituency: "Wicklow", Party: "Renua Ireland"}),
+(:Candidate {Name: "Joe Behan", Age: "56", Constituency: "Wicklow", Party: "Independent"}),
+(:Candidate {Name: "Anne Ferris", Age: "61", Constituency: "Wicklow", Party: "Labour Party"}),
+(:Candidate {Name: "Jennifer Cuffe", Age: "29", Constituency: "Wicklow", Party: "Fianna Fail"})
+
+========================================================
+wexford
+
+CREATE
+(:Candidate {Name: "Mick Wallace", Age: "59", Constituency: "Wexford", Party: "Independents 4 Change"}),
+(:Candidate {Name: "James Browne", Age: "40", Constituency: "Wexford", Party: "Fianna Fail"}),
+(:Candidate {Name: "Brendan Howlin", Age: "59", Constituency: "Wexford", Party: "Labour Party"}),
+(:Candidate {Name: "Michael D'Arcy", Age: "45", Constituency: "Wexford", Party: "Fine Gael"}),
+(:Candidate {Name: "Paul Kehoe", Age: "43", Constituency: "Wexford", Party: "Fine Gael"}),
+(:Candidate {Name: "Johnny Mythen", Age: "57", Constituency: "Wexford", Party: "Sinn Fein"}),
+(:Candidate {Name: "Malcolm Byrne", Age: "41", Constituency: "Wexford", Party: "Fianna Fail"}),
+(:Candidate {Name: "Ger Carthy", Age: "38", Constituency: "Wexford", Party: "Independent"}),
+(:Candidate {Name: "Aoife Byrne", Age: "37", Constituency: "Wexford", Party: "Fianna Fail"}),
+(:Candidate {Name: "Leonard Kelly", Age: "40", Constituency: "Wexford", Party: "Social Democrats"})
+========================================================
+waterford
+
+ CREATE
+(:Candidate {Name: "John Halligan", Age: "63", Constituency: "Waterford", Party: "Independent"}),
+(:Candidate {Name: "Mary Butler", Age: "54", Constituency: "Waterford", Party: "Fianna Fail"}),
+(:Candidate {Name: "David Cullinane", Age: "41", Constituency: "Waterford", Party: "Sinn Fein"}),
+(:Candidate {Name: "John Deasy", Age: "48", Constituency: "Waterford", Party: "Finn Gael"}),
+(:Candidate {Name: "Paudie Coffey", Age: "46", Constituency: "Waterford", Party: "Fine Gael"}),
+(:Candidate {Name: "Grace O'Sullivan", Age: "51", Constituency: "Waterford", Party: "Green Party"}),
+(:Candidate {Name: "Ciara Conway", Age: "35", Constituency: "Waterford", Party: "Labour Party"}),
+(:Candidate {Name: "Una Dunphy", Age: "48", Constituency: "Waterford", Party: "Anti-Austerity Alliance People Before Profit"}),
+(:Candidate {Name: "Mailo Power", Age: "55", Constituency: "Waterford", Party: "Renua Ireland"}),
+(:Candidate {Name: "John Walsh", Age: "54", Constituency: "Waterford", Party: "Independent"}),
+(:Candidate {Name: "Edward Quilty", Age: "59", Constituency: "Waterford", Party: "Independent"}),
+(:Candidate {Name: "Sheikh M. Ahmed", Age: "53", Constituency: "Waterford", Party: "Independent"})
 ========================================================
 ========================================================
 ========================================================
-========================================================
-========================================================
-=
+
 MATCH
 (c:Candidate {Name: "John Paul Phelan"}), (p:Party {Name: "Fine Gael"})
 CREATE
