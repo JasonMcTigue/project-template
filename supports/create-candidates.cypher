@@ -234,6 +234,18 @@ CREATE
 
 
 ===========================
+dublin fingal
+
+CREATE
+(:Candidate {Name: "Darragh O'Brien", Age: "41", Constituency: "Dublin Fingal", Party: "Fianna Fáil"}),
+(:Candidate {Name: "Clare Daly", Age: "47", Constituency: "Dublin Fingal", Party: "Independents 4 Change"}),
+(:Candidate {Name: "Alan Farrell", Age: "47", Constituency: "Dublin Fingal", Party: "Fine Gael"}),
+(:Candidate {Name: "Brendan Ryan", Age: "51", Constituency: "Dublin Fingal", Party: "Labour Party"}),
+(:Candidate {Name: "Louise O'Reilly
+", Age: "42", Constituency: "Dublin Fingal", Party: "Sine Fein"}),
+(:Candidate {Name: "James Reilly", Age: "60", Constituency: "Dublin Fingal", Party: "Fine Gael"}),
+(:Candidate {Name: "Lorraine Clifford-Lee", Age: "45", Constituency: "Dublin Fingal", Party: "Fianna Fáil"}),
+(:Candidate {Name: "Barry Martin", Age: "27", Constituency: "Dublin Fingal", Party: "Independents 4 Change"})
 ========================================================
 ========================================================
 ========================================================================================================================================================================
