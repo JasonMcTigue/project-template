@@ -262,7 +262,95 @@ CREATE
 (:Candidate {Name: "Lorraine Hennessy", Age: "49", Constituency: "Dublin Mid-West", Party: "Workers Party"}),
 (:Candidate {Name: "Tom Kivlehan", Age: "44", Constituency: "Dublin Mid-West", Party: "Green Party"})
 ========================================================
-========================================================================================================================================================================
+Dublin North west
+
+CREATE
+(:Candidate {Name: "Róisín Shortall", Age: "61", Constituency: "Dublin North-West", Party: "Social Democrats"}),
+(:Candidate {Name: "Noel Rock", Age: "28", Constituency: "Dublin North-West", Party: "Fein Gael"}),
+(:Candidate {Name: "Paul McAuliffe", Age: "38", Constituency: "Dublin North-West", Party: "Fianna Fail"}),
+(:Candidate {Name: "John Lyons", Age: "38", Constituency: "Dublin North-West", Party: "labour Party"}),
+(:Candidate {Name: "Cathleen Carney Boud", Age: "37", Constituency: "Dublin North-West", Party: "Sinn Fein"}),
+(:Candidate {Name: "Andrew Keegan", Age: "52", Constituency: "Dublin North-West", Party: "Anti-Austerity Alliance People Before Profit"}),
+(:Candidate {Name: "Bernie Hughes", Age: "56", Constituency: "Dublin North-West", Party: "Independent"}),
+(:Candidate {Name: "Caroline Conroy", Age: "42", Constituency: "Dublin North-West", Party: "Green Party"}),
+(:Candidate {Name: "Jimmy Dignam", Age: "26", Constituency: "Dublin North-West", Party: "Workers Party"}),
+(:Candidate {Name: "Cormac McKay", Age: "35", Constituency: "Dublin North-West", Party: "Direct Democracy Ireland"})
+========================================================
+Dublin Rathdown
+
+CREATE
+(:Candidate {Name: "Shane Ross", Age: "66", Constituency: "Dublin Rathdown", Party: "Independent"}),
+(:Candidate {Name: "Josepha Madigan", Age: "46", Constituency: "Dublin Rathdown", Party: "Fine Gael"}),
+(:Candidate {Name: "Catherine Martin", Age: "43", Constituency: "Dublin Rathdown", Party: "Green Party"}),
+(:Candidate {Name: "Alan Shatter", Age: "64", Constituency: "Dublin Rathdown", Party: "Fine Gael"}),
+(:Candidate {Name: "Mary White", Age: "71", Constituency: "Dublin Rathdown", Party: "Fianna Fail"}),
+(:Candidate {Name: "Alex White", Age: "56", Constituency: "Dublin Rathdown", Party: "Labour Party"}),
+(:Candidate {Name: "Alan Daveron", Age: "36", Constituency: "Dublin Rathdown", Party: "Renua Ireland"})
+========================================================
+Dublin South central
+
+CREATE
+(:Candidate {Name: "Catherine Byrne", Age: "59", Constituency: "Dublin South Central", Party: "Fine Gael"}),
+(:Candidate {Name: "Aengus O Snodaigh", Age: "51", Constituency: "Dublin South Central", Party: "Sine Fein"}),
+(:Candidate {Name: "Joan Collins", Age: "54", Constituency: "Dublin South Central", Party: " Independents 4 Change"}),
+(:Candidate {Name: "Bríd Smith", Age: "57", Constituency: "Dublin South Central", Party: "Anti-Austerity Alliance People Before Profit"}),
+(:Candidate {Name: "Catherine Ardagh", Age: "33", Constituency: "Dublin South Central", Party: "Fianna Fail"}),
+(:Candidate {Name: "Eric Byrne", Age: "68", Constituency: "Dublin South Central", Party: "Labour Party"}),
+(:Candidate {Name: "Máire Devine", Age: "52", Constituency: "Dublin South Central", Party: "Sinn Fein"}),
+(:Candidate {Name: "Liam Coyne", Age: "49", Constituency: "Dublin South Central", Party: "Social Democrats"}),
+(:Candidate {Name: "Paul Hand", Age: "29", Constituency: "Dublin South Central", Party: "Independent"}),
+(:Candidate {Name: "Oisín O hAlmhain", Age: "43", Constituency: "Dublin South Central", Party: "Green Party"})
+
+========================================================
+dublin south west
+
+CREATE
+(:Candidate {Name: "Paul Murphy", Age: "32", Constituency: "Dublin South West", Party: "Anti-Austerity Alliance People Before Profit"}),
+(:Candidate {Name: "John Lahart", Age: "51", Constituency: "Dublin South West", Party: "Fianna Fail"}),
+(:Candidate {Name: "Seán Crowet", Age: "58", Constituency: "Dublin South West", Party: "Sinn Fein"}),
+(:Candidate {Name: "Colm Brophy", Age: "49", Constituency: "Dublin South West", Party: "Fianna Gael"}),
+(:Candidate {Name: "Katherine Zappone", Age: "61", Constituency: "Dublin South West", Party: "Independent"}),
+(:Candidate {Name: "Anne-Marie Dermody", Age: "46", Constituency: "Dublin South West", Party: "Fine Gael"}),
+(:Candidate {Name: "Peter Fitzpatrick", Age: "35", Constituency: "Dublin South West", Party: "Independent"}),
+(:Candidate {Name: "Pamela Kearns", Age: "56", Constituency: "Dublin South West", Party: "Labour Party"}),
+(:Candidate {Name: "Sandra Fay", Age: "36", Constituency: "Dublin South West", Party: "Anti-Austerity Alliance People Before Profit"}),
+(:Candidate {Name: "Ronan McMahon", Age: "49", Constituency: "Dublin South West", Party: "Renua Ireland"})
+
+
+========================================================
+
+dublin west
+
+CREATE
+(:Candidate {Name: "Leo Varadkar", Age: "36", Constituency: "Dublin West", Party: "Fine Gael"}),
+(:Candidate {Name: "Ruth Coppinger", Age: "46", Constituency: "Dublin West", Party: "Anti-Austerity Alliance People Before Profit"}),
+(:Candidate {Name: "Jack Chambers", Age: "25", Constituency: "Dublin West", Party: "Fianna Fail"}),
+(:Candidate {Name: "Joan Burton", Age: "66", Constituency: "Dublin West", Party: "Labour Party"}),
+(:Candidate {Name: "Paul Donnelly", Age: "47", Constituency: "Dublin West", Party: "Sinn Fein"}),
+(:Candidate {Name: "David McGuinness", Age: "29", Constituency: "Dublin West", Party: "Independent"}),
+(:Candidate {Name: "Roderic O'Gorman", Age: "34", Constituency: "Dublin West", Party: "Green Party"}),
+(:Candidate {Name: "TJ Clare", Age: "25", Constituency: "Dublin West", Party: "Green Party"}),
+(:Candidate {Name: "Catherine Noone", Age: "39", Constituency: "Dublin West", Party: "Fine Gael"}),
+(:Candidate {Name: "Jo O'Brien", Age: "40", Constituency: "Dublin West", Party: "Renua Ireland"}),
+(:Candidate {Name: "Dermot Casey", Age: "41", Constituency: "Dublin West", Party: "Independent"})
+========================================================
+Dun Laoghaire
+
+CREATE
+(:Candidate {Name: "Richard Boyd Barrett", Age: "47", Constituency: "Dun Laoghaire", Party: "Anti-Austerity Alliance People Before Profit"}),
+(:Candidate {Name: "Maria Bailey", Age: "39", Constituency: "Dun Laoghaire", Party: "Fine Gael"}),
+(:Candidate {Name: "Mary Mitchell-O'Connor", Age: "56", Constituency: "Dun Laoghaire", Party: "Fine Gael"}),
+(:Candidate {Name: "Mary Hanafin", Age: "56", Constituency: "Dun Laoghaire", Party: "Fianna Fail"}),
+(:Candidate {Name: "Carrie Smyth", Age: "43", Constituency: "Dun Laoghaire", Party: "Labour Party"}),
+(:Candidate {Name: "Cormac Devlin", Age: "35", Constituency: "Dun Laoghaire", Party: "Fianna Fail"}),
+(:Candidate {Name: "Ossian Smyth", Age: "44", Constituency: "Dun Laoghaire", Party: "Green Party"}),
+(:Candidate {Name: "Carol Hunt", Age: "49", Constituency: "Dun Laoghaire", Party: "Independent"}),
+(:Candidate {Name: "Shane O'Brien", Age: "32", Constituency: "Dun Laoghaire", Party: "Independent"}),
+(:Candidate {Name: "Frank Cronin", Age: "53", Constituency: "Dun Laoghaire", Party: "Renua Ireland"}),
+(:Candidate {Name: "Raymond Whitehead", Age: "49", Constituency: "Dun Laoghaire", Party: "Direct Democracy Ireland"})
+
+========================================================
+========================================================
 ========================================================
 ========================================================
 ========================================================
