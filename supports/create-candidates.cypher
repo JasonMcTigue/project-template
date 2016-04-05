@@ -56,7 +56,27 @@ CREATE
 
 
 =====================================================================================
+Cork-East
 
+CREATE
+(:Candidate {Name: "David Stanton", Age: "58", Constituency: "Cork-East", Party: "Fine Gael"}),
+(:Candidate {Name: "Seán Sherlock", Age: "42", Constituency: "Cork-East", Party: "Labour Party"}),
+(:Candidate {Name: "Kevin O'Keefe", Age: "51", Constituency: "Cork-East", Party: "Fianna Fail"}),
+(:Candidate {Name: "Pat Buckley", Age: "47", Constituency: "Cork-East", Party: "Sinn Fein"}),
+(:Candidate {Name: "Noel McCarthy", Age: "53", Constituency: "Cork-East", Party: "Fine Gael"}),
+(:Candidate {Name: "Barbara Ahern", Age: "34", Constituency: "Cork-East", Party: "Fianna Fail"}),
+(:Candidate {Name: "Paul Bradford", Age: "51", Constituency: "Cork-East", Party: "Renua Ireland"}),
+(:Candidate {Name: "Mary Linehan-Foley", Age: "49", Constituency: "Cork-East", Party: "Independent"}),
+(:Candidate {Name: "Tom Barry", Age: "46", Constituency: "Cork-East", Party: "Fine Gael"}),
+(:Candidate {Name: "Ciara Leonardi Roche", Age: "2", Constituency: "Cork-East", Party: "Anti-Austerity Alliance People Before Profit"}),
+(:Candidate {Name: "Kieran McCarthy", Age: "55", Constituency: "Cork-East", Party: "Independent"}),
+(:Candidate {Name: "Ken Curtin", Age: "51", Constituency: "Cork-East", Party: "Fine Gael"}),
+(:Candidate {Name: "Natasha Harty", Age: "68", Constituency: "Cork-East", Party: "Green Party"}),
+(:Candidate {Name: "Paddy Bullman", Age: "59", Constituency: "Cork-East", Party: "Independent"}),
+(:Candidate {Name: "Ross Cannon", Age: "40", Constituency: "Cork-East", Party: "Independent"})
+
+
+==================
 MATCH
 (c:Candidate {Name: "John Paul Phelan"}), (p:Party {Name: "Fine Gael"})
 CREATE
