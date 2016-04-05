@@ -216,7 +216,24 @@ CREATE
 (:Candidate {Name: "Eoin Tierney", Age: "42", Constituency: "Dublin Bay South", Party: "Independent"}),
 (:Candidate {Name: "William D.J. Gorman", Age: "52", Constituency: "Dublin Bay South", Party: "Independent"}),
 (:Candidate {Name: "John Dominic Keigher", Age: "72", Constituency: "Dublin Bay South", Party: "Independent"})
-================================================================================================================
+=====================================================================================
+Dublin Central
+
+CREATE
+(:Candidate {Name: "Mary Lou McDonald", Age: "46", Constituency: "Dublin Central", Party: "Sinn Fein"}),
+(:Candidate {Name: "Paschal Donohoe", Age: "41", Constituency: "Dublin Central", Party: "Fein Gael"}),
+(:Candidate {Name: "Maureen O'Sullivan", Age: "64", Constituency: "Dublin Central", Party: "Independent"}),
+(:Candidate {Name: "Gary Gannon", Age: "28", Constituency: "Dublin Central", Party: " Social Democrats"}),
+(:Candidate {Name: "Christy Burke", Age: "68", Constituency: "Dublin Central", Party: "Independent"}),
+(:Candidate {Name: "Mary Fitzpatrick", Age: "46", Constituency: "Dublin Central", Party: "Fianna Fail"}),
+(:Candidate {Name: "Cieran Perry", Age: "53", Constituency: "Dublin Central", Party: "Independent"}),
+(:Candidate {Name: "Joe Costello", Age: "70", Constituency: "Dublin Central", Party: "Labour Party"}),
+(:Candidate {Name: "Diana O'Dwyer", Age: "37", Constituency: "Dublin Central", Party: "Anti-Austerity Alliance People Before Profit"}),
+(:Candidate {Name: "Jacqui Gilbourne", Age: "61", Constituency: "Dublin Central", Party: "Renua Ireland"}),
+(:Candidate {Name: "Éilis Ryan", Age: "31", Constituency: "Dublin Central", Party: "Workers Party"})
+
+
+===========================
 ========================================================
 ========================================================
 ========================================================================================================================================================================

@@ -6622,3 +6622,9 @@ RETURN r;
 2016-04-05 18:25:04.056+0000 INFO  [o.n.k.i.t.l.c.CheckPointerImpl] Check Pointing triggered by scheduler for time threshold [145]:  Check pointing completed
 2016-04-05 18:25:04.056+0000 INFO  [o.n.k.i.t.l.p.LogPruningImpl] Log Rotation [0]:  Starting log pruning.
 2016-04-05 18:25:04.056+0000 INFO  [o.n.k.i.t.l.p.LogPruningImpl] Log Rotation [0]:  Log pruning complete.
+2016-04-05 18:25:22.136+0000 WARN  [o.n.k.i.c.MonitorGc] GC Monitor: Application threads blocked for 4162ms.
+2016-04-05 18:25:23.055+0000 WARN  [o.n.k.i.c.MonitorGc] GC Monitor: Application threads blocked for 818ms.
+2016-04-05 18:25:23.668+0000 WARN  [o.n.k.i.c.MonitorGc] GC Monitor: Application threads blocked for 512ms.
+2016-04-05 18:26:47.919+0000 WARN  [o.n.k.i.c.MonitorGc] GC Monitor: Application threads blocked for 900ms.
+2016-04-05 18:26:53.503+0000 WARN  [o.n.k.i.c.MonitorGc] GC Monitor: Application threads blocked for 5482ms.
+2016-04-05 18:27:00.007+0000 WARN  [o.n.k.i.c.MonitorGc] GC Monitor: Application threads blocked for 6403ms.
