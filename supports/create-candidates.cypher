@@ -199,6 +199,23 @@ CREATE
 
 
 ========================================================
+dublin bay south 
+
+CREATE
+(:Candidate {Name: "Eamon Ryan", Age: "52", Constituency: "Dublin Bay South", Party: "Green Party"}),
+(:Candidate {Name: "Eoghan Murphy", Age: "33", Constituency: "Dublin Bay South", Party: "Fine Gael"}),
+(:Candidate {Name: "Jim O'Callaghan", Age: "47", Constituency: "Dublin Bay South", Party: "Fianna Fail"}),
+(:Candidate {Name: "Kate O'Connell", Age: "36", Constituency: "Dublin Bay South", Party: "Fine Gael"}),
+(:Candidate {Name: "Kevin Humphreys", Age: "57", Constituency: "Dublin Bay South", Party: "labour Party"}),
+(:Candidate {Name: "Chris Andrews", Age: "51", Constituency: "Dublin Bay South", Party: "Sinn Fein"}),
+(:Candidate {Name: "Lucinda Creighton", Age: "36", Constituency: "Dublin Bay South", Party: "Renua Ireland"}),
+(:Candidate {Name: "Glenna Lynch", Age: "51", Constituency: "Dublin Bay South", Party: " Social Democrats"}),
+(:Candidate {Name: "Annette Mooney", Age: "48", Constituency: "Dublin Bay South", Party: "Anti-Austerity Alliance People Before Profit"}),
+(:Candidate {Name: "Mannix Flynn", Age: "58", Constituency: "Dublin Bay South", Party: "Independent"}),
+(:Candidate {Name: "Alan Mac Stiofain", Age: "33", Constituency: "Dublin Bay South", Party: "Independent"}),
+(:Candidate {Name: "Eoin Tierney", Age: "42", Constituency: "Dublin Bay South", Party: "Independent"}),
+(:Candidate {Name: "William D.J. Gorman", Age: "52", Constituency: "Dublin Bay South", Party: "Independent"}),
+(:Candidate {Name: "John Dominic Keigher", Age: "72", Constituency: "Dublin Bay South", Party: "Independent"})
 ================================================================================================================
 ========================================================
 ========================================================

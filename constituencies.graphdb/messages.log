@@ -6610,3 +6610,15 @@ RETURN r;
 2016-04-05 18:22:56.953+0000 WARN  [o.n.k.i.c.MonitorGc] GC Monitor: Application threads blocked for 371ms.
 2016-04-05 18:23:50.799+0000 WARN  [o.n.k.i.c.MonitorGc] GC Monitor: Application threads blocked for 3702ms.
 2016-04-05 18:23:52.017+0000 WARN  [o.n.k.i.c.MonitorGc] GC Monitor: Application threads blocked for 1016ms.
+2016-04-05 18:24:02.218+0000 WARN  [o.n.k.i.c.MonitorGc] GC Monitor: Application threads blocked for 10000ms.
+2016-04-05 18:24:04.027+0000 WARN  [o.n.k.i.c.MonitorGc] GC Monitor: Application threads blocked for 1708ms.
+2016-04-05 18:25:04.045+0000 INFO  [o.n.k.i.t.l.c.CheckPointerImpl] Check Pointing triggered by scheduler for time threshold [145]:  Starting check pointing...
+2016-04-05 18:25:04.045+0000 INFO  [o.n.k.i.t.l.c.CheckPointerImpl] Check Pointing triggered by scheduler for time threshold [145]:  Starting store flush...
+2016-04-05 18:25:04.047+0000 INFO  [o.n.k.i.s.c.CountsTracker] About to rotate counts store at transaction 145 to [/Users/JasonMcTigue/Documents/GraphTheory/project-template-master/constituencies.graphdb/neostore.counts.db.a], from [/Users/JasonMcTigue/Documents/GraphTheory/project-template-master/constituencies.graphdb/neostore.counts.db.b].
+2016-04-05 18:25:04.047+0000 INFO  [o.n.k.i.s.c.CountsTracker] Successfully rotated counts store at transaction 145 to [/Users/JasonMcTigue/Documents/GraphTheory/project-template-master/constituencies.graphdb/neostore.counts.db.a], from [/Users/JasonMcTigue/Documents/GraphTheory/project-template-master/constituencies.graphdb/neostore.counts.db.b].
+2016-04-05 18:25:04.055+0000 INFO  [o.n.k.i.t.l.c.CheckPointerImpl] Check Pointing triggered by scheduler for time threshold [145]:  Store flush completed
+2016-04-05 18:25:04.056+0000 INFO  [o.n.k.i.t.l.c.CheckPointerImpl] Check Pointing triggered by scheduler for time threshold [145]:  Starting appending check point entry into the tx log...
+2016-04-05 18:25:04.056+0000 INFO  [o.n.k.i.t.l.c.CheckPointerImpl] Check Pointing triggered by scheduler for time threshold [145]:  Appending check point entry into the tx log completed
+2016-04-05 18:25:04.056+0000 INFO  [o.n.k.i.t.l.c.CheckPointerImpl] Check Pointing triggered by scheduler for time threshold [145]:  Check pointing completed
+2016-04-05 18:25:04.056+0000 INFO  [o.n.k.i.t.l.p.LogPruningImpl] Log Rotation [0]:  Starting log pruning.
+2016-04-05 18:25:04.056+0000 INFO  [o.n.k.i.t.l.p.LogPruningImpl] Log Rotation [0]:  Log pruning complete.
