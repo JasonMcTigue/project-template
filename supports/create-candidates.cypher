@@ -247,6 +247,20 @@ CREATE
 (:Candidate {Name: "Lorraine Clifford-Lee", Age: "45", Constituency: "Dublin Fingal", Party: "Fianna Fáil"}),
 (:Candidate {Name: "Barry Martin", Age: "27", Constituency: "Dublin Fingal", Party: "Independents 4 Change"})
 ========================================================
+Dublin mid west
+
+CREATE
+(:Candidate {Name: "Eoin O Broin", Age: "44", Constituency: "Dublin Mid-West", Party: "Sinn Fein"}),
+(:Candidate {Name: "John Curran", Age: "55", Constituency: "Dublin Mid-West", Party: "Fianna Fail"}),
+(:Candidate {Name: "Frances Fitzgerald", Age: "65", Constituency: "Dublin Mid-West", Party: "Fein Gael"}),
+(:Candidate {Name: "Gino Kenny", Age: "42", Constituency: "Dublin Mid-West", Party: "Anti-Austerity Alliance People Before Profit"}),
+(:Candidate {Name: "Anne-Marie McNally", Age: "35", Constituency: "Dublin Mid-West", Party: "Social Democrats"}),
+(:Candidate {Name: "Derek Keating", Age: "60", Constituency: "Dublin Mid-West", Party: "Fein Gael"}),
+(:Candidate {Name: "Paul Gogarty", Age: "47", Constituency: "Dublin Mid-West", Party: "Independent"}),
+(:Candidate {Name: "Joanna Tuffy", Age: "50", Constituency: "Dublin Mid-West", Party: "Labour Party"}),
+(:Candidate {Name: "Francis Timmons", Age: "44", Constituency: "Dublin Mid-West", Party: "Independent"}),
+(:Candidate {Name: "Lorraine Hennessy", Age: "49", Constituency: "Dublin Mid-West", Party: "Workers Party"}),
+(:Candidate {Name: "Tom Kivlehan", Age: "44", Constituency: "Dublin Mid-West", Party: "Green Party"})
 ========================================================
 ========================================================================================================================================================================
 ========================================================
