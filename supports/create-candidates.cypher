@@ -350,11 +350,85 @@ CREATE
 (:Candidate {Name: "Raymond Whitehead", Age: "49", Constituency: "Dun Laoghaire", Party: "Direct Democracy Ireland"})
 
 ========================================================
+Galway east
+
+CREATE
+(:Candidate {Name: "Seán Canney", Age: "57", Constituency: "Galway East", Party: "Independent"}),
+(:Candidate {Name: "Anne Rabbitte", Age: "45", Constituency: "Galway East", Party: "Fianna Fail"}),
+(:Candidate {Name: "Ciarán Cannon", Age: "50", Constituency: "Galway East", Party: "Fine Gael"}),
+(:Candidate {Name: "Paul Connaughton", Age: "33", Constituency: "Galway East", Party: "Fine Gael"}),
+(:Candidate {Name: "Colm Keaveney", Age: "44", Constituency: "Galway East", Party: "Fianna Fail"}),
+(:Candidate {Name: "Lorraine Higgins", Age: "36", Constituency: "Galway East", Party: "Labour Party"}),
+(:Candidate {Name: "Annemarie Roche", Age: "36", Constituency: "Galway East", Party: "Sinn Fein"}),
+(:Candidate {Name: "Michael Fahy", Age: "64", Constituency: "Galway East", Party: "Independent"}),
+(:Candidate {Name: "Máiréad Ní Chróinín", Age: "35", Constituency: "Galway East", Party: "Green Party"}),
+(:Candidate {Name: "Aengus Melia", Age: "37", Constituency: "Galway East", Party: "Direct Democracy Ireland"})
 ========================================================
+Galway west
+
+CREATE
+(:Candidate {Name: "Éamon O Cuív", Age: "65", Constituency: "Galway West", Party: "Fianna Fail"}),
+(:Candidate {Name: "Noel Grealish", Age: "50", Constituency: "Galway West", Party: "Independent"}),
+(:Candidate {Name: "Catherine Connolly", Age: "54", Constituency: "Galway West", Party: "Independent"}),
+(:Candidate {Name: "Sean Kyne", Age: "40", Constituency: "Galway West", Party: "Fine Gael"}),
+(:Candidate {Name: "Hildegarde Naughton", Age: "38", Constituency: "Galway West", Party: "Fine Gael"}),
+(:Candidate {Name: "Trevor O Clochartaigh", Age: "47", Constituency: "Galway West", Party: "Sinn Fein"}),
+(:Candidate {Name: "John O'Mahony", Age: "62", Constituency: "Galway West", Party: "Fine Gael"}),
+(:Candidate {Name: "John Connolly", Age: "36", Constituency: "Galway West", Party: "Fianna Fail"}),
+(:Candidate {Name: "Niall O Tuathail", Age: "29", Constituency: "Galway West", Party: "Social Democrats"}),
+(:Candidate {Name: "Derek Nolan", Age: "33", Constituency: "Galway West", Party: "Labour Party"}),
+(:Candidate {Name: "Mary Hoade", Age: "49", Constituency: "Galway West", Party: "Fianna Fail"}),
+(:Candidate {Name: "Mike Cubbard", Age: "30", Constituency: "Galway West", Party: "Independent"})
 ========================================================
+kerry
+
+CREATE
+(:Candidate {Name: "Michael Healy-Rae", Age: "48", Constituency: "Kerry", Party: "Independent"}),
+(:Candidate {Name: "Brendan Griffin", Age: "33", Constituency: "Kerry", Party: "Fine Gael"}),
+(:Candidate {Name: "Danny Healy-Rae", Age: "53", Constituency: "Kerry", Party: "Independent"}),
+(:Candidate {Name: "Martin Ferris", Age: "63", Constituency: "Kerry", Party: "Sinn Fein"}),
+(:Candidate {Name: "John Brassil", Age: "52", Constituency: "Kerry", Party: "Fianna Fail"}),
+(:Candidate {Name: "Jimmy Deenihan", Age: "63", Constituency: "Kerry", Party: "Fine Gael"}),
+(:Candidate {Name: "Arthur Spring", Age: "48", Constituency: "Kerry", Party: "Labour Party"}),
+(:Candidate {Name: "Norma Moriarty", Age: "43", Constituency: "Kerry", Party: "Fianna Fail"}),
+(:Candidate {Name: "Michael O'Gorman", Age: "41", Constituency: "Kerry", Party: "Independent"}),
+(:Candidate {Name: "Brian Finucane", Age: "41", Constituency: "Kerry", Party: "Anti-Austerity Alliance People Before Profit"})
 ========================================================
+kildare north
+
+CREATE
+(:Candidate {Name: "Catherine Murphy", Age: "62", Constituency: "Kildare North", Party: "Social Democrats"}),
+(:Candidate {Name: "James Lawless", Age: "39", Constituency: "Kildare North", Party: "Fianna Fail"}),
+(:Candidate {Name: "Bernard Durkan", Age: "70", Constituency: "Kildare North", Party: "Fine Gael"}),
+(:Candidate {Name: "Frank O'Rourke", Age: "42", Constituency: "Kildare North", Party: "Fianna Fail"}),
+(:Candidate {Name: "Anthony Lawlor", Age: "62", Constituency: "Kildare North", Party: "Fine Gael"}),
+(:Candidate {Name: "Emmet Stagg", Age: "71", Constituency: "Kildare North", Party: "Labour Party"}),
+(:Candidate {Name: "Réada Cronin", Age: "51", Constituency: "Kildare North", Party: "Sinn Fein"}),
+(:Candidate {Name: "Maebh Ní Fhallúin", Age: "35", Constituency: "Kildare North", Party: "Green Party"}),
+(:Candidate {Name: "Brendan Young", Age: "52", Constituency: "Kildare North", Party: "Independent"})
 ========================================================
+kildare south
+
+CREATE
+(:Candidate {Name: "Martin Heydon", Age: "37", Constituency: "Kildare South", Party: "Fine Gael"}),
+(:Candidate {Name: "Fiona O'Loughlin", Age: "52", Constituency: "Kildare South", Party: "Fianna Fail"}),
+(:Candidate {Name: "Seán O Fearghaíl", Age: "55", Constituency: "Kildare South", Party: "Fianna Fail"}),
+(:Candidate {Name: "Mark Wall", Age: "45", Constituency: "Kildare South", Party: "Labour Party"}),
+(:Candidate {Name: "Patricia Ryan", Age: "52", Constituency: "Kildare South", Party: "Sinn Fein"}),
+(:Candidate {Name: "Fiona McLoughlin Healy", Age: "52", Constituency: "Kildare South", Party: "Fine Gael"}),
+(:Candidate {Name: "Declan Crowe", Age: "44", Constituency: "Kildare South", Party: "Independent"}),
+(:Candidate {Name: "Suzanne McEneaney", Age: "32", Constituency: "Kildare South", Party: "Green Party"}),
+(:Candidate {Name: "Mary Kennedy", Age: "45", Constituency: "Kildare South", Party: "Renua Ireland"})
 ========================================================
+Louis
+
+CREATE
+(:Candidate {Name: "Seán Fleming", Age: "57", Constituency: "Laois", Party: "Fianna Fail"}),
+(:Candidate {Name: "Brian Stanley", Age: "54", Constituency: "Laois", Party: "Sinn Fein"}),
+(:Candidate {Name: "Charlie Flanagan", Age: "59", Constituency: "Laois", Party: "Fine Gael"}),
+(:Candidate {Name: "Thomasina Connell", Age: "33", Constituency: "Laois", Party: "Fine Gael"}),
+(:Candidate {Name: "John Whelan", Age: "54", Constituency: "Laois", Party: "Labour Party"}),
+(:Candidate {Name: "Sinead Moore", Age: "40", Constituency: "Laois", Party: "Green Party"})
 ========================================================
 ========================================================
 ========================================================
