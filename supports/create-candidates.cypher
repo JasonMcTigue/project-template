@@ -151,6 +151,28 @@ CREATE
 (:Candidate {Name: "Gillian Powell", Age: "55", Constituency: "Cork South West", Party: "Independent"}),
 (:Candidate {Name: "Theresa Heaney", Age: "52", Constituency: "Cork South West", Party: "Catholic Democrats"}),
 (:Candidate {Name: "Fiona O'Leary", Age: "44", Constituency: "Cork South West", Party: "Independent"})
+======================================================
+Donegal
+
+CREATE
+(:Candidate {Name: "Pearse Doherty", Age: "38", Constituency: "Donegal", Party: "Sinn Fein"}),
+(:Candidate {Name: "Pat 'The Cope' Gallagher", Age: "67", Constituency: "Donegal", Party: "Fianna Fail"}),
+(:Candidate {Name: "Charlie McConalogue", Age: "38", Constituency: "Donegal", Party: "Fianna Fail"}),
+(:Candidate {Name: "Joe McHugh", Age: "44", Constituency: "Donegal", Party: "Fein Gael"}),
+(:Candidate {Name: "Thomas Pringle
+", Age: "48", Constituency: "Donegal", Party: "Independent"}),
+(:Candidate {Name: "Padraig Mac Lochlainn", Age: "42", Constituency: "Donegal", Party: "Sinn Fein"}),
+(:Candidate {Name: "Tim Jackson", Age: "26", Constituency: "Donegal", Party: "Independent"}),
+(:Candidate {Name: "Dessie Shiels", Age: "39", Constituency: "Donegal", Party: "Independent"}),
+(:Candidate {Name: "Gary Doherty", Age: "33", Constituency: "Donegal", Party: "Sinn Fein"}),
+(:Candidate {Name: "Paddy Harte", Age: "60", Constituency: "Donegal", Party: "Fein Gael"}),
+(:Candidate {Name: "Niamh Kennedy", Age: "46", Constituency: "Donegal", Party: "Independent"}),
+(:Candidate {Name: "Frank McBrearty
+", Age: "46", Constituency: "Donegal", Party: "Independent"}),
+(:Candidate {Name: "Ian McGarvey", Age: "85", Constituency: "Donegal", Party: "Independent"}),
+(:Candidate {Name: "Michael Mooney", Age: "38", Constituency: "Donegal", Party: "Independent"}),
+(:Candidate {Name: "Paula Flanagan", Age: "47", Constituency: "Donegal", Party: "Green Party"}),
+(:Candidate {Name: "Cordelia Nic Fhearraigh", Age: "54", Constituency: "Donegal", Party: "Fis Nua"})
 
 
 
