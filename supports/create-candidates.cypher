@@ -33,7 +33,27 @@ CREATE
 (:Candidate {Name: "Jimmy Mee", Age: "55", Constituency: "Cavan-Monaghan", Party: "Independent"})
 
 
-http://www.thejournal.ie/election-2016/constituency/4/
+====================================================================================
+Clare
+
+CREATE
+(:Candidate {Name: "Timmy Dooley", Age: "46", Constituency: "Clare", Party: "Fianna Fail"}),
+(:Candidate {Name: "Michael Harty", Age: "43", Constituency: "Clare", Party: "Independent"}),
+(:Candidate {Name: "Pat Breen", Age: "58", Constituency: "Clare", Party: "Fine Gael"}),
+(:Candidate {Name: "Joe Careyy", Age: "40", Constituency: "Clare", Party: "Fianna Gael"}),
+(:Candidate {Name: "Michael McDonagh", Age: "51", Constituency: "Clare", Party: "Fianna Fail"}),
+(:Candidate {Name: "Michael McNamara", Age: "41", Constituency: "Clare", Party: "Labour Party"}),
+(:Candidate {Name: "Noeleen Moran", Age: "30", Constituency: "Clare", Party: "Sinn Fein"}),
+(:Candidate {Name: "Ann Norton", Age: "42", Constituency: "Clare", Party: "Independent"}),
+(:Candidate {Name: "Clare Colleran Molloy", Age: "51", Constituency: "Clare", Party: "Fianna Fail"}),
+(:Candidate {Name: "Fergal Smith", Age: "28", Constituency: "Clare", Party: "Green Party"}),
+(:Candidate {Name: "Mary Howard", Age: "46", Constituency: "Clare", Party: "Fine Gael"}),
+(:Candidate {Name: "Ian Lynch", Age: "37", Constituency: "Clare", Party: "Independent"}),
+(:Candidate {Name: "Niamh O'Brien", Age: "34", Constituency: "Clare", Party: "Renua Ireland"}),
+(:Candidate {Name: "Richard Cahill", Age: "49", Constituency: "Clare", Party: "Independent"}),
+(:Candidate {Name: "André Sibo Hakizimana", Age: "37", Constituency: "Clare", Party: "Independent"}),
+(:Candidate {Name: "Dermot Mulqueen", Age: "45", Constituency: "Clare", Party: "Independent"}),
+
 
 =====================================================================================
 
@@ -48,6 +68,7 @@ MATCH
 CREATE
 (c)-[r:RUNS_IN]->(con)
 RETURN r;
-
+==================================================================================
+http://www.thejournal.ie/election-2016/constituency
 
 
