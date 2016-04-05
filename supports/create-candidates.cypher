@@ -173,11 +173,45 @@ CREATE
 (:Candidate {Name: "Michael Mooney", Age: "38", Constituency: "Donegal", Party: "Independent"}),
 (:Candidate {Name: "Paula Flanagan", Age: "47", Constituency: "Donegal", Party: "Green Party"}),
 (:Candidate {Name: "Cordelia Nic Fhearraigh", Age: "54", Constituency: "Donegal", Party: "Fis Nua"})
+=======================================================
+Dublin bay North
+
+CREATE
+(:Candidate {Name: "Richard Bruton", Age: "62", Constituency: "Dublin Bay North", Party: "Fine Gael"}),
+(:Candidate {Name: "Seán Haughey", Age: "53", Constituency: "Dublin Bay North", Party: "Fianna Fail"}),
+(:Candidate {Name: "Tommy Broughan", Age: "68", Constituency: "Dublin Bay North", Party: "Independents 4 Change"}),
+(:Candidate {Name: "Denise Mitchell", Age: "45", Constituency: "Dublin Bay North", Party: "Sinn Fein"}),
+(:Candidate {Name: "Finian McGrath", Age: "62", Constituency: "Dublin Bay North", Party: "Independent"}),
+(:Candidate {Name: "Aodhán O Ríordáin", Age: "39", Constituency: "Dublin Bay North", Party: "Labour Party"}),
+(:Candidate {Name: "John Lyons", Age: "36", Constituency: "Dublin Bay North", Party: "Anti-Austerity Alliance People Before Profit"}),
+(:Candidate {Name: "Averil Power", Age: "37", Constituency: "Dublin Bay North", Party: "Independent"}),
+(:Candidate {Name: "Cian O'Callaghan", Age: "36", Constituency: "Dublin Bay North", Party: " Social Democrats"}),
+(:Candidate {Name: "Deirdre Heney", Age: "55", Constituency: "Dublin Bay North", Party: "Fianna Fail"}),
+(:Candidate {Name: "Mícheál Mac Donncha", Age: "51", Constituency: "Dublin Bay North", Party: "Sinn Fein"}),
+(:Candidate {Name: "Terence Flanagan", Age: "40", Constituency: "Dublin Bay North", Party: "Renua Ireland"}),
+(:Candidate {Name: "Naoise O Muirí", Age: "41", Constituency: "Dublin Bay North", Party: "Fine Gael"}),
+(:Candidate {Name: "Michael O'Brien", Age: "40", Constituency: "Dublin Bay North", Party: "Anti-Austerity Alliance People Before Profit"}),
+(:Candidate {Name: "Stephanie Regan
+", Age: "57", Constituency: "Dublin Bay North", Party: "Fine Gael"}),
+(:Candidate {Name: "Damien O'Neill", Age: "54", Constituency: "Dublin Bay North", Party: "Independent"})
 
 
 
 
-
+========================================================
+================================================================================================================
+========================================================
+========================================================
+========================================================================================================================================================================
+========================================================
+========================================================
+========================================================
+========================================================
+========================================================
+========================================================
+========================================================
+========================================================
+========================================================
 ========================================================
 =
 MATCH
