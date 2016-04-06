@@ -672,6 +672,17 @@ CREATE
 (c)-[r:RUNS_IN]->(con)
 RETURN r;
 ==================================================================================
+MATCH
+(c:Candidate {Name: "Cordelia Nic Fhearraigh"}), (p:Party {Name: "Independent"}), (con:Constituency {Name: "Donegal"})
+CREATE
+(c)-[r:RUNNING_FOR]->(p)
+CREATE
+(c)-[runs:RUNS_IN]->(con)
+
+RETURN r,runs;
+
+
+=================================================================================
 http://www.thejournal.ie/election-2016/constituency
 
 

@@ -14,6 +14,8 @@ CREATE
 (rsf:Party {Name: "Republican Sinn Féin", Leader: "Des Dalton", Founded: 1986, Dail_Seats: 0})
 (fn:Party {Name: “Fis Nua, Leader”})
 CREATE(cp:Party {Name: "Communist Party of Ireland"})
+CREATE(ic:Party {Name: 'Independents 4 Change'})
+CREATE(di:Party {Name: 'Direct Democracy Ireland})
 
 
 

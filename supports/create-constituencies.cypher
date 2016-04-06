@@ -35,3 +35,4 @@ CREATE
 (constituency33:Constituency {Name: "Waterford", Num_Seats: "4", Population: "113,795"}),
 (constituency34:Constituency {Name: "Wexford", Num_Seats: "5", Population: "145,320"}),
 (constituency35:Constituency {Name: "Wicklow", Num_Seats: "5", Population: "141,012"})
+(constituency36:Constituency {Name: “Dublin South Centra;”, Num_Seats: “4”, Population: "111,012"})
