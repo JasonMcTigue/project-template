@@ -13,6 +13,7 @@ CREATE
 (wp:Party {Name: "Workers Party", Leader: "Michael Donnelly", Founded: 1970, Dail_Seats: 0}),
 (rsf:Party {Name: "Republican Sinn Féin", Leader: "Des Dalton", Founded: 1986, Dail_Seats: 0})
 (fn:Party {Name: “Fis Nua, Leader”})
+CREATE(cp:Party {Name: "Communist Party of Ireland"})
 
 
 
