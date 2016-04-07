@@ -30,7 +30,7 @@ The query I used for creating the parties was:
 ```
 The query I used to match candidates to their parties and constituencies:
 
-``cypher
+```cypher
 MATCH
 (c:Candidate {Name: "Cordelia Nic Fhearraigh"}), (p:Party {Name: "Independent"}), (con:Constituency {Name: "Donegal"})
 CREATE
