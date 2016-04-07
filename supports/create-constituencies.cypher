@@ -34,5 +34,7 @@ CREATE
 (constituency32:Constituency {Name: "Tipperary", Num_Seats: "5", Population: "147,801"}),
 (constituency33:Constituency {Name: "Waterford", Num_Seats: "4", Population: "113,795"}),
 (constituency34:Constituency {Name: "Wexford", Num_Seats: "5", Population: "145,320"}),
-(constituency35:Constituency {Name: "Wicklow", Num_Seats: "5", Population: "141,012"})
-(constituency36:Constituency {Name: “Dublin South Centra;”, Num_Seats: “4”, Population: "111,012"})
+(constituency35:Constituency {Name: "Wicklow", Num_Seats: "5", Population: "141,012”}),
+(constituency36:Constituency {Name: “Dublin South Centra;”, Num_Seats: “4”, Population: "111,012”}),
+(constituency37:Constituency {Name: “Kildare South”, Num_Seats: “4”, Population: "111,012”}),
+(constituency38:Constituency {Name: “Cork South-West”, Num_Seats: “5”, Population: "123,012”})

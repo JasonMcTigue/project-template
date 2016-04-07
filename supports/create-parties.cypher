@@ -16,7 +16,8 @@ CREATE
 CREATE(cp:Party {Name: "Communist Party of Ireland"})
 CREATE(ic:Party {Name: 'Independents 4 Change'})
 CREATE(di:Party {Name: 'Direct Democracy Ireland})
-
+CREATE(cd:Party {Name: ‘Catholic Democrats’})
+CREATE(cd:Party {Name: ‘Irish Democratic Party’})
 
 
 https://en.wikipedia.org/wiki/List_of_political_parties_in_the_Republic_of_Ireland
