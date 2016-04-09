@@ -47,14 +47,15 @@ Summarise your three queries here.
 Then explain them one by one in the following sections.
 
 #### Query one title
-This query gets all the candidates that have an age greater then 60 that run
-in a constituency with a population less then 50,000
+This query returns all the candidates that have an age greater then 60 that run
+in a constituency with a population less then 50,000. The query then orders them by age.
 ```cypher
 MATCH
 (n:Candidate)-[r:RUNS_IN]->(m:Constituency)
 WHERE
 (m.Population)<= "50,000" AND (n.Age) > "60"
-RETURN m,n;
+RETURN m,n
+ORDER BY (n.Age)
 ```
 
 #### Query two title
@@ -80,3 +81,4 @@ RETURN
 2. [Wikipedia page](https://en.wikipedia.org/wiki/Parliamentary_constituencies_in_the_Republic_of_Ireland), Wiki page of all the Irish constituencies, seats in each and population in each.
 3.[Journal.ie](http://www.thejournal.ie/election-2016/constituency)Website in which I got information for all candidates and their. constituencies.
 4. [Neo4j Website](http://neo4j.com/docs/stable/query-create.html)Used for further information on the create statement.
+5.[Neo4j Website](http://neo4j.com/docs/stable/query-match.html)Used for creating the queries

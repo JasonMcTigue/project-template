@@ -96,7 +96,7 @@ CREATE
 (:Candidate {Name: "Peter O'Loughlin", Age: "31", Constituency: "Cork North Central", Party: "Independent"})
 
 
-========================================================
+==================================================================================
 cork north west
 
 CREATE
@@ -113,7 +113,7 @@ CREATE
 (:Candidate {Name: "Jerry O'Sullivan", Age: "52", Constituency: "Cork North West", Party: "Independent"}),
 (:Candidate {Name: "Shirley Griffin", Age: "50", Constituency: "Cork North West", Party: "Independent"}),
 (:Candidate {Name: "Michael O'Donnell", Age: "66", Constituency: "Cork North West", Party: " Communist Party of Ireland"})
-========================================================
+==================================================================================
 cork south central
 
 CREATE
@@ -136,7 +136,7 @@ CREATE
 (:Candidate {Name: "Michael McGrath", Age: "39", Constituency: "Cork South Central", Party: "Fianna Fáil"})
 
 
-========================================================
+==================================================================================
 cork south west
 
 CREATE
@@ -151,7 +151,7 @@ CREATE
 (:Candidate {Name: "Gillian Powell", Age: "55", Constituency: "Cork South West", Party: "Independent"}),
 (:Candidate {Name: "Theresa Heaney", Age: "52", Constituency: "Cork South West", Party: "Catholic Democrats"}),
 (:Candidate {Name: "Fiona O'Leary", Age: "44", Constituency: "Cork South West", Party: "Independent"})
-======================================================
+==================================================================================
 Donegal
 
 CREATE
@@ -173,7 +173,7 @@ CREATE
 (:Candidate {Name: "Michael Mooney", Age: "38", Constituency: "Donegal", Party: "Independent"}),
 (:Candidate {Name: "Paula Flanagan", Age: "47", Constituency: "Donegal", Party: "Green Party"}),
 (:Candidate {Name: "Cordelia Nic Fhearraigh", Age: "54", Constituency: "Donegal", Party: "Fis Nua"})
-=======================================================
+==================================================================================
 Dublin bay North
 
 CREATE
@@ -196,9 +196,7 @@ CREATE
 (:Candidate {Name: "Damien O'Neill", Age: "54", Constituency: "Dublin Bay North", Party: "Independent"})
 
 
-
-
-========================================================
+==================================================================================
 dublin bay south 
 
 CREATE
@@ -233,7 +231,7 @@ CREATE
 (:Candidate {Name: "Éilis Ryan", Age: "31", Constituency: "Dublin Central", Party: "Workers Party"})
 
 
-===========================
+==================================================================================
 dublin fingal
 
 CREATE
@@ -261,7 +259,7 @@ CREATE
 (:Candidate {Name: "Francis Timmons", Age: "44", Constituency: "Dublin Mid-West", Party: "Independent"}),
 (:Candidate {Name: "Lorraine Hennessy", Age: "49", Constituency: "Dublin Mid-West", Party: "Workers Party"}),
 (:Candidate {Name: "Tom Kivlehan", Age: "44", Constituency: "Dublin Mid-West", Party: "Green Party"})
-========================================================
+==================================================================================
 Dublin North west
 
 CREATE
@@ -275,7 +273,7 @@ CREATE
 (:Candidate {Name: "Caroline Conroy", Age: "42", Constituency: "Dublin North-West", Party: "Green Party"}),
 (:Candidate {Name: "Jimmy Dignam", Age: "26", Constituency: "Dublin North-West", Party: "Workers Party"}),
 (:Candidate {Name: "Cormac McKay", Age: "35", Constituency: "Dublin North-West", Party: "Direct Democracy Ireland"})
-========================================================
+==================================================================================
 Dublin Rathdown
 
 CREATE
@@ -286,7 +284,7 @@ CREATE
 (:Candidate {Name: "Mary White", Age: "71", Constituency: "Dublin Rathdown", Party: "Fianna Fail"}),
 (:Candidate {Name: "Alex White", Age: "56", Constituency: "Dublin Rathdown", Party: "Labour Party"}),
 (:Candidate {Name: "Alan Daveron", Age: "36", Constituency: "Dublin Rathdown", Party: "Renua Ireland"})
-========================================================
+==================================================================================
 Dublin South central
 
 CREATE
@@ -301,7 +299,7 @@ CREATE
 (:Candidate {Name: "Paul Hand", Age: "29", Constituency: "Dublin South Central", Party: "Independent"}),
 (:Candidate {Name: "Oisín O hAlmhain", Age: "43", Constituency: "Dublin South Central", Party: "Green Party"})
 
-========================================================
+==================================================================================
 dublin south west
 
 CREATE
@@ -656,33 +654,8 @@ waterford
 (:Candidate {Name: "John Walsh", Age: "54", Constituency: "Waterford", Party: "Independent"}),
 (:Candidate {Name: "Edward Quilty", Age: "59", Constituency: "Waterford", Party: "Independent"}),
 (:Candidate {Name: "Sheikh M. Ahmed", Age: "53", Constituency: "Waterford", Party: "Independent"})
-========================================================
-========================================================
-========================================================
-
-MATCH
-(c:Candidate {Name: "John Paul Phelan"}), (p:Party {Name: "Fine Gael"})
-CREATE
-(c)-[r:RUNNING_FOR]->(p)
-RETURN r;
-======================================================================================
-MATCH
-(c:Candidate {Name: "John Paul Phelan"}), (con:Constituency {Name: "Carlow-Kilkenny”})
-CREATE
-(c)-[r:RUNS_IN]->(con)
-RETURN r;
 ==================================================================================
-MATCH
-(c:Candidate {Name: "Cordelia Nic Fhearraigh"}), (p:Party {Name: "Independent"}), (con:Constituency {Name: "Donegal"})
-CREATE
-(c)-[r:RUNNING_FOR]->(p)
-CREATE
-(c)-[runs:RUNS_IN]->(con)
 
-RETURN r,runs;
-
-
-=================================================================================
 http://www.thejournal.ie/election-2016/constituency
 
 

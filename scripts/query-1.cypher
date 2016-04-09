@@ -6,4 +6,5 @@ MATCH
 (n:Candidate)-[r:RUNS_IN]->(m:Constituency)
 WHERE
 (m.Population)<= "50,000" AND (n.Age) > "60"
-RETURN m,n;
+RETURN m,n
+ORDER BY (n.Age)
