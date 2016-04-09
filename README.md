@@ -16,19 +16,19 @@ CREATE
 (:Candidate {Name: "Michael McGrath", Age: "39", Constituency: "Cork South Central", Party: "Fianna Fáil"})
 ```
 
-<h1>The query I used for creating each constituency was:</h1>
+<h3>The query I used for creating each constituency was:</h3>
 
 ```cypher
 CREATE 
 (constituency:Constituency {Name: "Cavan-Monaghan", Num_Seats: "4", Population: "120,483"})
 ```
 
-<h1>The query I used for creating the parties was:</h1>
+<h3>The query I used for creating the parties was:</h3>
 
 ```cypher
 (fg:Party {Name: "Fine Gael", Leader: "Enda Kenny", Founded: 1933, Dail_Seats: 50})
 ```
-<h1>The query I used to match candidates to their parties and constituencies:</h1>
+<h3>The query I used to match candidates to their parties and constituencies:</h3>
 
 ```cypher
 MATCH
