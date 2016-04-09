@@ -47,12 +47,14 @@ Summarise your three queries here.
 Then explain them one by one in the following sections.
 
 #### Query one title
-This query retreives the Bacon number of an actor...
+This query gets all the candidates that have an age greater then 60 that run
+in a constituency with a population less then 50,000
 ```cypher
 MATCH
-	(Bacon)
-RETURN
-	Bacon;
+(n:Candidate)-[r:RUNS_IN]->(m:Constituency)
+WHERE
+(m.Population)<= "50,000" AND (n.Age) > "60"
+RETURN m,n;
 ```
 
 #### Query two title
