@@ -14261,3 +14261,11 @@ RETURN r;
 2016-04-09 14:39:33.147+0000 WARN  [o.n.k.i.c.MonitorGc] GC Monitor: Application threads blocked for 10000ms.
 2016-04-09 14:39:43.248+0000 WARN  [o.n.k.i.c.MonitorGc] GC Monitor: Application threads blocked for 10000ms.
 2016-04-09 14:39:44.132+0000 WARN  [o.n.k.i.c.MonitorGc] GC Monitor: Application threads blocked for 783ms.
+2016-04-09 14:40:54.467+0000 WARN  [o.n.k.i.c.MonitorGc] GC Monitor: Application threads blocked for 7284ms.
+2016-04-09 14:40:57.009+0000 WARN  [o.n.k.i.c.MonitorGc] GC Monitor: Application threads blocked for 2441ms.
+2016-04-09 14:40:58.012+0000 WARN  [o.n.k.i.c.MonitorGc] GC Monitor: Application threads blocked for 902ms.
+2016-04-09 14:41:00.007+0000 WARN  [o.n.k.i.c.MonitorGc] GC Monitor: Application threads blocked for 1894ms.
+2016-04-09 14:41:47.189+0000 WARN  [o.n.k.i.c.MonitorGc] GC Monitor: Application threads blocked for 1005ms.
+2016-04-09 14:41:50.589+0000 WARN  [o.n.k.i.c.MonitorGc] GC Monitor: Application threads blocked for 3299ms.
+2016-04-09 14:41:57.825+0000 WARN  [o.n.k.i.c.MonitorGc] GC Monitor: Application threads blocked for 7135ms.
+2016-04-09 14:41:59.537+0000 WARN  [o.n.k.i.c.MonitorGc] GC Monitor: Application threads blocked for 1509ms.
