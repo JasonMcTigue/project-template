@@ -9,7 +9,7 @@ This database contains all the candidates than ran in the **2016 Irish election*
 In my database I created each candidate with there full name, age, constituency and then their party.
 
 
-<h1>The query I used for creating the candidates was:</h1>
+<h3>The query I used for creating the candidates was:</h3>
 
 ```cypher
 CREATE

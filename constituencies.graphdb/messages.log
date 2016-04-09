@@ -14625,3 +14625,5 @@ RETURN r;
 2016-04-09 15:28:47.812+0000 WARN  [o.n.k.i.c.MonitorGc] GC Monitor: Application threads blocked for 1142ms.
 2016-04-09 15:28:49.119+0000 WARN  [o.n.k.i.c.MonitorGc] GC Monitor: Application threads blocked for 959ms.
 2016-04-09 15:28:50.566+0000 WARN  [o.n.k.i.c.MonitorGc] GC Monitor: Application threads blocked for 1246ms.
+2016-04-09 15:28:55.409+0000 WARN  [o.n.k.i.c.MonitorGc] GC Monitor: Application threads blocked for 4742ms.
+2016-04-09 15:28:56.025+0000 WARN  [o.n.k.i.c.MonitorGc] GC Monitor: Application threads blocked for 516ms.
